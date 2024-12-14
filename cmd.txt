@@ -1,0 +1,5 @@
+docker compose -f .\src\main\docker\keycloak.yml up
+
+docker compose -f .\src\main\docker\jhipster-registry.yml up
+
+./mvnw
